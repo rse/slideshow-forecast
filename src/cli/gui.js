@@ -11,6 +11,7 @@
 /* global module: false */
 /* global console: false */
 /* global process: false */
+/* global __dirname: false */
 
 /*  external requirements  */
 var path       = require("path")
