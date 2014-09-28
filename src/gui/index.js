@@ -45,8 +45,10 @@ $(document).ready(function () {
         win.hide()
         tray = new gui.Tray({ icon: "icon.png" })
         tray.on("click", function() {
-            win.show();
-            tray.remove();
+            win.show()
+            win.width  = 550
+            win.height = 182
+            tray.remove()
             tray = null
         })
     })
@@ -91,7 +93,7 @@ $(document).ready(function () {
     var updating = false
     var updateOnce = function () {
         if (updating)
-            return;
+            return
         updating = true
         $("i.refresh").addClass("fa-spin")
         ssf.forecast(function (FC) {
