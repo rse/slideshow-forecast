@@ -14,6 +14,10 @@
         "powerpoint", "keynote",
         "forecast"
     ],
+    "scripts": {
+        "cli": "$NODE ./src/cli/index.js",
+        "gui": "$NODE ./src/cli/index.js --gui"
+    },
     "repository": {
         "type": "git",
         "url":  "git://github.com/rse/slideshow-forecast.git"
