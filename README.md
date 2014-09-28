@@ -25,6 +25,8 @@ expected duration is based on both the number of statements the speaker
 wants to give per slide (provided in the slide notes as tags in the
 format `<\d\?+(\+\d+\?)*>`) and the speaker speed and speaker focus type.
 
+![Screenshot](screenshot.png "Screenshot")
+
 Installation
 ------------
 
