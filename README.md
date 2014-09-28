@@ -44,6 +44,12 @@ Run the program on the Command-Line Interface (CLI) via:
       [--focus digressive|decorative|focused|selective|staccato]
       [--gui]
 
+For development purposes the following short-cuts exist
+for running the CLI or GUI variants:
+
+    $ npm run-script cli
+    $ npm run-script gui
+
 License
 -------
 
