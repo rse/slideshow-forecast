@@ -1,4 +1,6 @@
+
 slideshow-forecast
 ==================
 
-Slideshow Duration Forecast
+Slideshow Duration Forecasting
+

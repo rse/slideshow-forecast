@@ -1,0 +1,72 @@
+<html>
+    <head>
+        <title>Slideshow Forecast</title>
+        <link href="lib/sanitize/sanitize.css" rel="stylesheet" type="text/css"/>
+        <link href="lib/typopro/TypoPRO-OpenSans/TypoPRO-OpenSans-Regular.css" rel="stylesheet" type="text/css"/>
+        <link href="lib/typopro/TypoPRO-OpenSans/TypoPRO-OpenSans-Bold.css" rel="stylesheet" type="text/css"/>
+        <link href="lib/typopro/TypoPRO-DejaVu/TypoPRO-DejaVuSans-Regular.css" rel="stylesheet" type="text/css"/>
+        <link href="lib/typopro/TypoPRO-DejaVu/TypoPRO-DejaVuSans-Bold.css" rel="stylesheet" type="text/css"/>
+        <link href="lib/fontawesome/fontawesome.css" rel="stylesheet" type="text/css"/>
+        <link href="index.css" rel="stylesheet" type="text/css"/>
+        <script>global.nwrequire = require;</script>
+        <script src="lib/jquery/jquery.js"></script>
+        <script src="lib/store/store.js"></script>
+        <script src="index.js"></script>
+    </head>
+    <body>
+         <div class="selector">
+             <select class="program">
+                 <option value="powerpoint">PowerPoint</option>
+                 <option value="keynote">Keynote</option>
+             </select>
+         </div>
+         <div class="icons">
+             <i class="fa fa-refresh refresh"></i>
+         </div>
+
+         <h1>Slideshow Forecast</h1>
+         <table class="forecast">
+             <tr class="title">
+                 <td class="title">focus/speed:</td>
+                 <td class="fast">fast:</td>
+                 <td class="normal">normal:</td>
+                 <td class="slow">slow:</td>
+             </tr>
+             <tr class="digressive">
+                 <td class="title">digressive:</td>
+                 <td data-select="digressive-fast"   class="fast"></td>
+                 <td data-select="digressive-normal" class="normal"></td>
+                 <td data-select="digressive-slow"   class="slow"></td>
+             </tr>
+             <tr class="decorative">
+                 <td class="title">decorative:</td>
+                 <td data-select="decorative-fast"   class="fast"></td>
+                 <td data-select="decorative-normal" class="normal"></td>
+                 <td data-select="decorative-slow"   class="slow"></td>
+             </tr>
+             <tr class="focused">
+                 <td class="title">focused:</td>
+                 <td data-select="focused-fast"   class="fast"></td>
+                 <td data-select="focused-normal" class="normal"></td>
+                 <td data-select="focused-slow"   class="slow"></td>
+             </tr>
+             <tr class="selective">
+                 <td class="title">selective:</td>
+                 <td data-select="selective-fast"   class="fast"></td>
+                 <td data-select="selective-normal" class="normal"></td>
+                 <td data-select="selective-slow"   class="slow"></td>
+             </tr>
+             <tr class="staccato">
+                 <td class="title">staccato:</td>
+                 <td data-select="staccato-fast"   class="fast"></td>
+                 <td data-select="staccato-normal" class="normal"></td>
+                 <td data-select="staccato-slow"   class="slow"></td>
+             </tr>
+         </table>
+         <div class="info">
+             (total slides: <span class="slides-total"></span>,
+             tagged slides: <span class="slides-tagged"></span>,
+             statements: <span class="statements"></span>)
+         </div>
+    </body>
+</html>

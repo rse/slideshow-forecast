@@ -1,0 +1,127 @@
+/*
+**  slideshow-forecast -- Slideshow Duration Forecasting
+**  Copyright (c) 2014 Ralf S. Engelschall <http://engelschall.com>
+**
+**  This Source Code Form is subject to the terms of the Mozilla Public
+**  License (MPL), version 2.0. If a copy of the MPL was not distributed
+**  with this file, You can obtain one at http://mozilla.org/MPL/2.0/.
+*/
+
+html {
+    margin: 0px;
+}
+
+body {
+    -webkit-user-select: none;
+    margin: 0px;
+    background-color: #333333;
+    color: #ffffff;
+    font-family: "TypoPRO Open Sans";
+    font-size: 9pt;
+    position: relative;
+}
+
+div.selector {
+    position: absolute;
+    top: 4px;
+    left: 15px;
+    z-index 100;
+}
+
+div.selector select {
+    background-color: #333333;
+    color: #c0c0c0;
+    border: 1px solid #999999;
+    font-size: 9pt;
+}
+
+div.icons {
+    position: absolute;
+    top: 8px;
+    right: 15px;
+    z-index 100;
+    font-size: 12pt;
+    color: #c0c0c0;
+}
+div.icons .refresh.fa-spin {
+    color: #ffffff;
+}
+
+h1 {
+    font-size: 14pt;
+    margin: 0px;
+    padding: 2px 5px 2px 5px;
+    background-color: #333333;
+    color: #ffffff;
+    text-align: center;
+}
+
+* {
+    cursor: default;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    font-size: 9pt;
+    margin: 0px 0px 0px 0px;
+    background-color: #ffffff;
+    color: #000000;
+}
+
+table tr td {
+    border-right: 1px solid #d0d0d0;
+    border-left: 1px solid #d0d0d0;
+    font-size: 9pt;
+}
+table tr.title {
+    border-top: 1px solid #d0d0d0;
+    border-bottom: 1px solid #d0d0d0;
+    background-color: #cccccc;
+}
+table tr.staccato {
+    border-bottom: 1px solid #d0d0d0;
+}
+table tr td.title {
+    border-left: 0px !important;
+}
+
+table tr.title td,
+table td.title {
+    font-weight: bold;
+    background-color: #e0e0e0;
+}
+
+table tr.title td {
+    padding: 2px 5px 2px 5px;
+}
+table td.title {
+    padding: 2px 5px 2px 5px;
+}
+
+table td.fast,
+table td.normal,
+table td.slow {
+    font-family: "TypoPRO DejaVu Sans";
+    font-weight: normal;
+    padding: 4px 10px 4px 10px;
+    background-color: #f8f8f8;
+}
+
+table td.inverse {
+    background-color: #336699;
+    color: #ffffff;
+}
+
+div.info {
+    width: 100%;
+    background-color: #333333;
+    color: #d0d0d0;
+    text-align: center;
+}
+
+div.info span {
+    color: #f0f0f0;
+    font-weight: bold;
+}
+

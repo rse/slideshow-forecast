@@ -1,0 +1,29 @@
+{
+    "name":                           "slideshow-forecast-gui",
+    "version":                        "0.0.0",
+    "bin":                            "slideshow-forecast.js",
+    "main":                           "index.html",
+    "single-instance":                true,
+    "window": {
+        "show":                       false,
+        "show_in_taskbar":            true,
+        "toolbar":                    false,
+        "frame":                      true,
+        "icon":                       "icon.png",
+        "position":                   "mouse",
+        "resizable":                  false,
+        "width":                      550,
+        "height":                     182,
+        "min_width":                  550,
+        "min_height":                 182,
+        "max_width":                  550,
+        "max_height":                 182
+    },
+    "devDependencies": {
+    },
+    "dependencies" : {
+    },
+    "engines": {
+        "node":                       ">=0.10.0"
+    }
+}

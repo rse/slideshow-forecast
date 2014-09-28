@@ -1,0 +1,10 @@
+{
+    "name": "slideshow-forecast",
+    "dependencies": {
+        "sanitize.css":       "2.0.0",
+        "fontawesome":        "4.2.0",
+        "jquery":             "2.1.1",
+        "typopro":            "2.2.3",
+        "store.js":           "1.3.16"
+    }
+}

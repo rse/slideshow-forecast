@@ -1,0 +1,44 @@
+{
+    "name":          "slideshow-forecast",
+    "homepage":      "http://github.com/rse/slideshow-forecast",
+    "description":   "Slideshow Duration Forecasting",
+    "version":       "0.0.0",
+    "license":       "MPL",
+    "author": {
+        "name":      "Ralf S. Engelschall",
+        "email":     "rse@engelschall.com",
+        "url":       "http://engelschall.com"
+    },
+    "keywords": [
+        "slide", "slideshow", "presentation",
+        "powerpoint", "keynote",
+        "forecast"
+    ],
+    "repository": {
+        "type": "git",
+        "url":  "git://github.com/rse/slideshow-forecast.git"
+    },
+    "bugs": {
+        "url":  "http://github.com/rse/slideshow-forecast"
+    },
+    "devDependencies": {
+        "grunt":                      "~0.4.5",
+        "grunt-cli":                  "~0.1.13",
+        "grunt-contrib-copy":         "~0.6.0",
+        "grunt-contrib-clean":        "~0.6.0",
+        "grunt-contrib-jshint":       "~0.10.0",
+        "grunt-eslint":               "~1.1.0",
+        "grunt-bower-install-simple": "~1.0.3"
+    },
+    "dependencies": {
+        "slideshow":                  "~0.9.5",
+        "dashdash":                   "~1.7.0",
+        "sprintfjs":                  "~1.1.4",
+        "chalk":                      "~0.5.1",
+        "win-spawn":                  "~2.0.0",
+        "nodewebkit":                 "~0.10.5"
+    },
+    "engines": {
+        "node":                       ">=0.10.0"
+    }
+}
