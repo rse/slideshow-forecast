@@ -1,3 +1,4 @@
+#!/usr/bin/env node
 /*
 **  slideshow-forecast -- Slideshow Duration Forecasting
 **  Copyright (c) 2014 Ralf S. Engelschall <http://engelschall.com>
