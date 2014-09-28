@@ -1,7 +1,6 @@
 {
-    "name":                           "slideshow-forecast-gui",
+    "name":                           "slideshow-forecast",
     "version":                        "0.0.0",
-    "bin":                            "slideshow-forecast.js",
     "main":                           "index.html",
     "single-instance":                true,
     "window": {
