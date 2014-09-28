@@ -38,7 +38,7 @@
         "grunt-bower-install-simple": "~1.0.3"
     },
     "dependencies": {
-        "slideshow":                  "~0.9.5",
+        "slideshow":                  "~0.9.7",
         "dashdash":                   "~1.7.0",
         "sprintfjs":                  "~1.1.4",
         "chalk":                      "~0.5.1",
