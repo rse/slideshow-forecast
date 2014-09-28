@@ -23,7 +23,7 @@
         "url":  "git://github.com/rse/slideshow-forecast.git"
     },
     "bugs": {
-        "url":  "http://github.com/rse/slideshow-forecast"
+        "url":  "https://github.com/rse/slideshow-forecast/issues"
     },
     "bin": {
         "slideshow-forecast": "./src/cli/index.js"
