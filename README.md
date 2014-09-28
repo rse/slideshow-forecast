@@ -10,8 +10,8 @@ Slideshow Duration Forecasting
 <p/>
 <img src="https://david-dm.org/rse/slideshow-forecast.png" alt=""/>
 
-Description
------------
+Abstract
+--------
 
 Slideshow-Forecast is a
 [Node](http://nodejs.org/)/[Node-Webkit](https://github.com/rogerwang/node-webkit)/JavaScript
@@ -22,11 +22,17 @@ the presentation applications supported by the Node [Slideshow](https://github.c
 [Apple KeyNote 5 for Mac OS X](http://www.apple.com/mac/keynote/))
 and displaying a forecast on the expected presentation duration.
 
+Motivation
+----------
+
 The motivation for this is that for large presentations which have to
 be given in multiple variants for different timeslots it is very hard
 to determine the later presentation duration during preparation time.
 Instead of performing lots of different dry-runs after each preparation,
 this tool provides a duration prognosis already during preparation time.
+
+Model
+-----
 
 The expected presentation duration is based on a calculation on both the number of statements the speaker
 wants to give per slide (provided by the speaker somewhere in his slide notes as textual tags in the
@@ -61,6 +67,9 @@ This prognosis schema is modeled according to the following observations:
 
    The speaker of `staccato` focus type is assumed to require only the total number of given statements. All
    others need more, with an increasing factor towards the `digressive` focus type.
+
+Example
+-------
 
 The following is a forecast in the CLI and GUI for a large 97-slide presentation:
 
