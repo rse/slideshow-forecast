@@ -22,6 +22,12 @@ the presentation applications supported by the Node [Slideshow](https://github.c
 [Apple KeyNote 5 for Mac OS X](http://www.apple.com/mac/keynote/))
 and displaying a forecast on the expected presentation duration.
 
+The motivation for this is that for large presentations which have to
+be given in multiple variants for different timeslots it is very hard
+to determine the later presentation duration during preparation time.
+Instead of performing lots of different dry-runs after each preparation,
+this tool provides a duration prognosis already during preparation time.
+
 The expected presentation duration is based on a calculation on both the number of statements the speaker
 wants to give per slide (provided by the speaker somewhere in his slide notes as textual tags in the
 format `<\d\?+(\+\d+\?)*>`) and the speaker speed and speaker focus type.
