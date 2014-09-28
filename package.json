@@ -1,6 +1,6 @@
 {
     "name":          "slideshow-forecast",
-    "homepage":      "http://github.com/rse/slideshow-forecast",
+    "homepage":      "https://github.com/rse/slideshow-forecast",
     "description":   "Slideshow Duration Forecasting",
     "version":       "0.9.0",
     "license":       "MPL",
