@@ -77,7 +77,9 @@ locally (default) or globally (with option `-g`):
 Usage
 -----
 
-Run the program on the Command-Line Interface (CLI) via:
+First, start your presentation application and load your slideset.
+Ensure that in the slide notes you provide the number of required statements.
+Then run Slideshow-Forecast on the Command-Line Interface (CLI) via:
 
     $ slideshow-forecast
       [--program powerpoint|keynote]
@@ -85,8 +87,10 @@ Run the program on the Command-Line Interface (CLI) via:
       [--focus digressive|decorative|focused|selective|staccato]
       [--gui]
 
-For development purposes the following short-cuts exist
-for running the CLI or GUI variants:
+The option `--gui` opens the Graphical User Interface (GUI) variant.
+
+For development purposes, the following shortcuts also exist
+for running the CLI or GUI variants without prior installation:
 
     $ npm run-script cli
     $ npm run-script gui
