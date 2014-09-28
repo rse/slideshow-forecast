@@ -40,16 +40,19 @@ This prognosis schema is modeled according to the following observations:
    in mind in order decide on his number of required statements.
 
 3. A speaker is classified by two dimensions:
-   1. Speaking Speed<br/>
+
+   - Speaking Speed
       - `fast`:   assumed to need  6.0s for a sentence on average and assumed to pause 1.0s between sentences on average.
       - `normal`: assumed to need  9.0s for a sentence on average and assumed to pause 1.5s between sentences on average.
       - `slow`:   assumed to need 13.0s for a sentence on average and assumed to pause 2.0s between sentences on average.
-   2. Speaking Focus<br/>
+
+   - Speaking Focus
       - `digressive`: assumed to express core plus addon information with extensive amount of sentences.
       - `decorative`: assumed to express core plus addon information with regular amount of sentences.
       - `focused`:    assumed to express core information only with regular amount of sentences.
       - `selective`:  assumed to express core information only with reduced amount of sentences.
       - `staccato`:   assumed to express core information only with absolute minimum number of sentences.
+
    The speaker of `staccato` focus type is assumed to require only the total number of given statements. All
    others need more, with an increasing factor towards the `digressive` focus type.
 
