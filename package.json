@@ -10,23 +10,43 @@
         "url":       "http://engelschall.com"
     },
     "keywords": [
-        "slide", "slideshow", "presentation",
-        "powerpoint", "keynote",
+        "slide",
+        "slideshow",
+        "presentation",
+        "powerpoint",
+        "keynote",
         "forecast"
     ],
     "scripts": {
-        "cli": "$NODE ./src/cli/index.js",
-        "gui": "$NODE ./src/cli/index.js --gui"
+        "cli":       "node ./src/cli/index.js",
+        "gui":       "node ./src/cli/index.js --gui"
     },
     "repository": {
-        "type": "git",
-        "url":  "git://github.com/rse/slideshow-forecast.git"
+        "type":       "git",
+        "url":        "git://github.com/rse/slideshow-forecast.git"
     },
     "bugs": {
         "url":  "https://github.com/rse/slideshow-forecast/issues"
     },
     "bin": {
-        "slideshow-forecast": "./src/cli/index.js"
+        "slideshow-forecast":         "src/cli/index.js"
+    },
+    "main":                           "src/gui/index.html",
+    "single-instance":                true,
+    "window": {
+        "show":                       false,
+        "show_in_taskbar":            true,
+        "toolbar":                    false,
+        "frame":                      true,
+        "icon":                       "icon.png",
+        "position":                   "mouse",
+        "resizable":                  false,
+        "width":                      550,
+        "height":                     182,
+        "min_width":                  550,
+        "min_height":                 182,
+        "max_width":                  550,
+        "max_height":                 182
     },
     "devDependencies": {
         "grunt":                      "~0.4.5",
@@ -35,7 +55,8 @@
         "grunt-contrib-clean":        "~0.6.0",
         "grunt-contrib-jshint":       "~0.10.0",
         "grunt-eslint":               "~1.1.0",
-        "grunt-bower-install-simple": "~1.0.3"
+        "grunt-bower-install-simple": "~1.0.3",
+        "grunt-node-webkit-builder":  "~0.2.3"
     },
     "dependencies": {
         "slideshow":                  "~0.9.7",

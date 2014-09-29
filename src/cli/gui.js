@@ -20,7 +20,7 @@ var nodewebkit = require("nodewebkit").findpath()
 
 var slideshowGUI = function (/* myProg, mySpeed, myFocus */) {
     /*  FIXME: parameters  */
-    var basedir = path.join(__dirname, "../gui")
+    var basedir = path.join(__dirname, "../..")
     var nw = spawn(nodewebkit, [ basedir ], {
         cwd: basedir,
         env: process.env
