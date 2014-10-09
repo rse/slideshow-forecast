@@ -14,6 +14,7 @@ module.exports = function (grunt) {
     grunt.loadNpmTasks("grunt-contrib-jshint");
     grunt.loadNpmTasks("grunt-eslint");
     grunt.loadNpmTasks("grunt-bower-install-simple");
+    grunt.loadNpmTasks("grunt-node-webkit-builder");
 
     grunt.initConfig({
         pkg: grunt.file.readJSON("package.json"),
@@ -79,6 +80,22 @@ module.exports = function (grunt) {
                 dest: "src/gui/lib/store/store.js"
             },
         },
+        nodewebkit: {
+            options: {
+                platforms: [ "win", "osx" ],
+                buildDir: "../dst",
+                cacheDir: "../cache",
+                macZip: false
+            },
+            src: [
+                "package.json",
+                "LICENSE",
+                "src/**/*",
+                "node_modules/slideshow/**/*",
+                "!node_modules/slideshow/node_modules/event-stream/test/*",
+                "node_modules/sprintfjs/**/*"
+            ]
+        },
         clean: {
             clean:     [ ],
             distclean: [ "node_modules", "bower_components" ]
@@ -90,6 +107,10 @@ module.exports = function (grunt) {
         "eslint",
         "bower-install-simple",
         "copy"
+    ]);
+
+    grunt.registerTask("package", [
+        "nodewebkit"
     ]);
 };
 
