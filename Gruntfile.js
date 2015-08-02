@@ -41,9 +41,9 @@ module.exports = function (grunt) {
             }
         },
         copy: {
-            "sanitize": {
-                src: [ "bower_components/sanitize.css/dist/sanitize.css" ],
-                dest: "src/gui/lib/sanitize/sanitize.css"
+            "normalize": {
+                src: [ "bower_components/normalize.css/normalize.css" ],
+                dest: "src/gui/lib/normalize/normalize.css"
             },
             "jquery": {
                 src: [ "bower_components/jquery/dist/jquery.js" ],
@@ -67,11 +67,11 @@ module.exports = function (grunt) {
             },
             "typopro": {
                 files: [
-                    { expand: true, flatten: false, cwd: "bower_components/typopro/web",
+                    { expand: true, flatten: false, cwd: "bower_components/typopro-web/web",
                       src: "TypoPRO-OpenSans/TypoPRO-OpenSans-Regular*", dest: "src/gui/lib/typopro/" },
-                    { expand: true, flatten: false, cwd: "bower_components/typopro/web",
+                    { expand: true, flatten: false, cwd: "bower_components/typopro-web/web",
                       src: "TypoPRO-OpenSans/TypoPRO-OpenSans-Bold*", dest: "src/gui/lib/typopro/" },
-                    { expand: true, flatten: false, cwd: "bower_components/typopro/web",
+                    { expand: true, flatten: false, cwd: "bower_components/typopro-web/web",
                       src: "TypoPRO-DejaVu/TypoPRO-DejaVuSans-Regular*", dest: "src/gui/lib/typopro/" }
                 ]
             },

@@ -2,7 +2,7 @@
     "name":          "slideshow-forecast",
     "homepage":      "https://github.com/rse/slideshow-forecast",
     "description":   "Slideshow Duration Forecasting",
-    "version":       "0.9.1",
+    "version":       "0.9.2",
     "license":       "MPL-2.0",
     "author": {
         "name":      "Ralf S. Engelschall",
