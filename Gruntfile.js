@@ -14,7 +14,7 @@ module.exports = function (grunt) {
     grunt.loadNpmTasks("grunt-contrib-jshint");
     grunt.loadNpmTasks("grunt-eslint");
     grunt.loadNpmTasks("grunt-bower-install-simple");
-    grunt.loadNpmTasks("grunt-node-webkit-builder");
+    grunt.loadNpmTasks("grunt-nw-builder");
 
     grunt.initConfig({
         pkg: grunt.file.readJSON("package.json"),
@@ -80,7 +80,7 @@ module.exports = function (grunt) {
                 dest: "src/gui/lib/store/store.js"
             },
         },
-        nodewebkit: {
+        nwjs: {
             options: {
                 platforms: [ "win", "osx" ],
                 buildDir: "../dst",
@@ -110,7 +110,7 @@ module.exports = function (grunt) {
     ]);
 
     grunt.registerTask("package", [
-        "nodewebkit"
+        "nwjs"
     ]);
 };
 

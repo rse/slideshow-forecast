@@ -3,7 +3,7 @@
     "homepage":      "https://github.com/rse/slideshow-forecast",
     "description":   "Slideshow Duration Forecasting",
     "version":       "0.9.1",
-    "license":       "MPL",
+    "license":       "MPL-2.0",
     "author": {
         "name":      "Ralf S. Engelschall",
         "email":     "rse@engelschall.com",
@@ -51,20 +51,20 @@
     "devDependencies": {
         "grunt":                      "~0.4.5",
         "grunt-cli":                  "~0.1.13",
-        "grunt-contrib-copy":         "~0.6.0",
+        "grunt-contrib-copy":         "~0.8.0",
         "grunt-contrib-clean":        "~0.6.0",
-        "grunt-contrib-jshint":       "~0.10.0",
-        "grunt-eslint":               "~1.1.0",
-        "grunt-bower-install-simple": "~1.0.3",
-        "grunt-node-webkit-builder":  "~0.2.3"
+        "grunt-contrib-jshint":       "~0.11.2",
+        "grunt-eslint":               "~17.0.0",
+        "grunt-bower-install-simple": "~1.1.4",
+        "grunt-nw-builder":           "~2.0.0"
     },
     "dependencies": {
-        "slideshow":                  "~0.9.7",
-        "dashdash":                   "~1.7.0",
-        "sprintfjs":                  "~1.1.4",
-        "chalk":                      "~0.5.1",
+        "slideshow":                  "~0.9.8",
+        "dashdash":                   "~1.10.0",
+        "sprintfjs":                  "~1.2.0",
+        "chalk":                      "~1.1.0",
         "win-spawn":                  "~2.0.0",
-        "nodewebkit":                 "~0.10.5"
+        "nw":                         "~0.12.3"
     },
     "engines": {
         "node":                       ">=0.10.0"

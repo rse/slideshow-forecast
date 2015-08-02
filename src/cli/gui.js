@@ -16,7 +16,7 @@
 /*  external requirements  */
 var path       = require("path")
 var spawn      = require("win-spawn")
-var nodewebkit = require("nodewebkit").findpath()
+var nodewebkit = require("nw").findpath()
 
 var slideshowGUI = function (/* myProg, mySpeed, myFocus */) {
     /*  FIXME: parameters  */
