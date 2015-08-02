@@ -47,7 +47,7 @@ var slideshowCLI = function (myProg, mySpeed, myFocus) {
                 var exp = ppt(Math.round(FC.T[focus][speed].exp))
                 var x = " " + exp + " (" + min + ") "
                 if (focus === myFocus && speed === mySpeed)
-                    x = chalk.inverse(x)
+                    x = chalk.inverse.red(x)
                 out += x + chalk.grey("|")
             })
             out += "\n"
