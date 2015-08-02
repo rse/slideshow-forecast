@@ -17,9 +17,9 @@ Slideshow-Forecast is a
 [Node](http://nodejs.org/)/[Node-Webkit](https://github.com/rogerwang/node-webkit)/JavaScript
 based Command Line Interface (CLI) and Graphical User Interface (GUI) for observing
 the presentation applications supported by the Node [Slideshow](https://github.com/rse/slideshow) API
-(mainly [Microsoft PowerPoint 2010 for Windows](http://office.microsoft.com/en-us/powerpoint/),
-[Microsoft PowerPoint 2011 for Mac OS X](http://www.microsoft.com/mac/powerpoint) and
-[Apple KeyNote 5 for Mac OS X](http://www.apple.com/mac/keynote/))
+(mainly [Microsoft PowerPoint 2010/2013 for Windows](http://office.microsoft.com/en-us/powerpoint/),
+[Microsoft PowerPoint 2011/2016 for Mac OS X](http://www.microsoft.com/mac/powerpoint) and
+[Apple KeyNote 5/6 for Mac OS X](http://www.apple.com/mac/keynote/))
 and displaying a forecast on the expected presentation duration.
 
 Motivation
